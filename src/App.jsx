@@ -81,11 +81,14 @@ export default class App extends Component {
   deleteContact = (key, e) => {
     e.stopPropagation();
 
-    let contacts = this.state.contacts;
-    delete contacts[key];
-    this.setState({
-      contacts
-    });
+    if (confirm("Delete contact?")) {
+      let contacts = this.state.contacts;
+
+      delete contacts[key];
+      this.setState({
+        contacts
+      });
+    }
   };
 
   render() {
