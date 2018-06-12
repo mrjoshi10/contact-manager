@@ -11,10 +11,10 @@ To run app on local machine, please follow following steps:
 1. Install node.js
 2. Use cmd to navigate to downloaded project folder
 3. Run following commands to install dependencies
-    npm install react-scripts
-    npm install react react-dom --save
-    npm install --save emotion react-emotion
-    npm start
+    1. npm install react-scripts
+    2. npm install react react-dom --save
+    3. npm install --save emotion react-emotion
+    4. npm start
 4. Now you should be able to access running application at http://localhost:3000/
 
 
