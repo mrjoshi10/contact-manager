@@ -19,7 +19,7 @@ const StyledDivOverlay = styled("div")`
 const StyledDivModal = styled("div")`
   background-color: #ffffff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-  height: 460px;
+  height: 522px;
   left: 50%;
   max-height: 80vh;
   max-width: 400px;
